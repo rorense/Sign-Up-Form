@@ -12,7 +12,6 @@
         <div class="left">
             <div class="picture">
                 <img src="pictures/Cover_Photo.jpg" class="cover_photo">
-                <img src="pictures/Logo.png" class="logo">
             </div>
         </div>
 
@@ -24,12 +23,25 @@
 
             <form action="#" method="post">
 
-                <div class="input">
-                    <la
+                <label for="first_name">FIRST NAME: </label>
+                <input type="text" id="first_name" name="first_name">
 
+                <label for="last_name">LAST NAME: </label>
+                <input type="text" name="last_name" id="last_name">
 
-                </div>
+                <label for="email">EMAIL: </label>
+                <input type="email" name="email" id="email">
 
+                <label for="phone_number">PHONE NUMBER: </label>
+                <input type="tel" name="phone_number" id="phone_number">
+
+                <label for="password">PASSWORD: </label>
+                <input type="password" name="password" id="password">
+
+                <label for="confirm_password">CONFIRM PASSWORD: </label>
+                <input type="password" name="confirm_password" id="confirm_password">
+
+                <button type="submit">CREATE ACCOUNT</button>
             </form>
         </div>
     </div>
